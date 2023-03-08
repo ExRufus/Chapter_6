@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="/style/register.css">
+<form action="/register" method="post">
+    <h1 style="color: rgb(59, 78, 118);">Halaman Register</h1>
+    <label for="username">Username:</label>
+    <input id="username" name="username" type="text" required placeholder="Masukkan username" />
+    <br>
+    <label for="password">Password:</label>
+    <input id="password" name="password" type="password" required placeholder="Masukkan password" />
+    <br>
+    <h3>Biodata User</h3>
+    <label for="fullname">Nama Lengkap:</label>
+    <input id="fullname" name="fullname" type="text" required placeholder="Masukkan nama lengkap" />
+    <br>
+    <label for="city">Kota:</label>
+    <input id="city" name="city" type="text" required placeholder="Masukkan kota asal" />
+    <br>
+    <label for="gender">Jenis Kelamin:</label>
+    <input id="radio-male" name="gender" value="Laki-laki" type="radio" required />
+    <label for="radio-male" style="color: black;">Laki-laki</label>
+    <input id="radio-female" name="gender" value="Perempuan" type="radio" required />
+    <label for="radio-female" style="color: black;">Perempuan</label>
+    <br>
+    <button type="submit">Daftar</button>
+</form>

@@ -1,0 +1,64 @@
+/* font-family default: sans-serif */
+
+
+/* body style */
+
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* table style */
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 90%;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #292929;
+}
+
+
+/* button style */
+
+button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #4d4d4d;
+}
+
+
+/* delete button style */
+
+.delete-button {
+    background-color: #ff4d4d;
+}
+
+.delete-button:hover {
+    background-color: #ff6666;
+}
